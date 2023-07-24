@@ -66,7 +66,7 @@ int main(){
 	xil_printf("Initializing Interrupts.....\n\r");
 
     
-// Here DMA is being initialized as an example
+// Here interrupts for DMA are being initialized as an example
 	InitializeInterruptSystem(XPAR_PS7_SCUGIC_0_DEVICE_ID, XPAR_FABRIC_AXI_DMA_1_MM2S_INTROUT_INTR, InterruptHandler_send );
 	InitializeInterruptSystem(XPAR_PS7_SCUGIC_0_DEVICE_ID, XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, InterruptHandler_recieve );
 	xil_printf("Interrupts Initialized.....\n\r");
