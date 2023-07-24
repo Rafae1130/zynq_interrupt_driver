@@ -12,11 +12,11 @@ static XScuGic_Config *GicConfig;
 
 
 void InterruptHandler_send(){
-
+// Write code for interrupt handler here
 }
 
 void InterruptHandler_recieve(){
-
+// Write code for interrupt handler here
 }
 
 
